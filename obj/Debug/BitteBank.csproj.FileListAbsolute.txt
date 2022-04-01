@@ -1,0 +1,8 @@
+C:\Users\aluno10.TSACBRRJLP041\source\repos\BitteBank\BitteBank\bin\Debug\BitteBank.exe.config
+C:\Users\aluno10.TSACBRRJLP041\source\repos\BitteBank\BitteBank\bin\Debug\BitteBank.exe
+C:\Users\aluno10.TSACBRRJLP041\source\repos\BitteBank\BitteBank\bin\Debug\BitteBank.pdb
+C:\Users\aluno10.TSACBRRJLP041\source\repos\BitteBank\BitteBank\obj\Debug\BitteBank.csproj.AssemblyReference.cache
+C:\Users\aluno10.TSACBRRJLP041\source\repos\BitteBank\BitteBank\obj\Debug\BitteBank.csproj.SuggestedBindingRedirects.cache
+C:\Users\aluno10.TSACBRRJLP041\source\repos\BitteBank\BitteBank\obj\Debug\BitteBank.csproj.CoreCompileInputs.cache
+C:\Users\aluno10.TSACBRRJLP041\source\repos\BitteBank\BitteBank\obj\Debug\BitteBank.exe
+C:\Users\aluno10.TSACBRRJLP041\source\repos\BitteBank\BitteBank\obj\Debug\BitteBank.pdb
