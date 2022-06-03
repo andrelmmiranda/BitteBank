@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BitteBank.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,18 +9,32 @@ namespace BitteBank
 {
     public class ContaCorrente
     {
+        public double TaxaOperacao { get; private set; }
         public Cliente Titular { get; set; }
-        public string Agencia { get; set; }
-        public int Numero { get; set; }
+        public int Agencia { get; }
+        public int Numero { get; }
         public double Saldo { get; set; }
         public static int QuantidadeDeContas { get; private set; }
 
-        public ContaCorrente(Cliente titular, string agencia, int numero)
+        public ContaCorrente(Cliente titular, int agencia, int numero)
         {
+            if(agencia <= 0)
+            {
+                throw new ArgumentException("Agência deve ser maior que zero", nameof(agencia));
+            }
+
+            if (numero <= 0)
+            {
+                throw new ArgumentException("Numero deve ser maior que zero", nameof(numero));
+            }
+
             Titular = titular;
             Agencia = agencia;
             Numero = numero;
+            
             QuantidadeDeContas++;
+
+            TaxaOperacao = 30 / QuantidadeDeContas;
         }
 
         public bool PodeSacar(double valor)
@@ -33,12 +48,16 @@ namespace BitteBank
 
         public string Sacar(double valor)
         {
+            if (valor < 0) throw new ArgumentException("Valor deve ser maior que zero.");
+
+
             if (PodeSacar(valor))
             {
                 Saldo -= valor;
                 return MensagemSucesso();
             }
-            return "Saldo insuficiente.";
+
+            throw new SaldoInsuficienteException(valor);
         }
 
         public string Depositar(double valor)
@@ -50,7 +69,9 @@ namespace BitteBank
 
         public string Transferir(double valor, ContaCorrente conta)
         {
-            if (PodeSacar(valor))
+            if (valor < 0) throw new ArgumentException("Valor inválido para transferência.");
+
+            if (Saldo >= valor)
             {
                 Sacar(valor);
                 conta.Depositar(valor);
