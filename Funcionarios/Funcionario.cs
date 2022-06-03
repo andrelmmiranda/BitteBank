@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BitteBank.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,5 +23,6 @@ namespace BitteBank.Funcionarios
         public abstract double GetBonificacao();
 
         public abstract void AumentarSalario();
+
     }
 }

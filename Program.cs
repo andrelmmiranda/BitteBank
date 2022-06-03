@@ -1,4 +1,5 @@
 ﻿using BitteBank.Funcionarios;
+using BitteBank.Sistemas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,13 @@ namespace BitteBank
             Console.WriteLine($"Salário: {d1.Salario}");
 
             Console.WriteLine($"Total Bonus: {gerenciadorBonificacao.GetTotalBonificacao()}");
+
+            d1.Senha = "123";
+
+
+            SistemaInterno sistemaInterno = new SistemaInterno();
+
+            sistemaInterno.Logar(d1, "123");
 
             Console.ReadKey();
         }
