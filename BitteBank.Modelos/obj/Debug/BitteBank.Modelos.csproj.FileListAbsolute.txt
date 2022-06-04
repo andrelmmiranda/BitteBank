@@ -1,0 +1,6 @@
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.Modelos\bin\Debug\BitteBank.Modelos.dll
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.Modelos\bin\Debug\BitteBank.Modelos.pdb
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.Modelos\obj\Debug\BitteBank.Modelos.csproj.AssemblyReference.cache
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.Modelos\obj\Debug\BitteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.Modelos\obj\Debug\BitteBank.Modelos.dll
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.Modelos\obj\Debug\BitteBank.Modelos.pdb

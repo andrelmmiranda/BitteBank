@@ -1,0 +1,11 @@
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\bin\Debug\BitteBank.SistemaAgencia.exe.config
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\bin\Debug\BitteBank.SistemaAgencia.exe
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\bin\Debug\BitteBank.SistemaAgencia.pdb
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\obj\Debug\BitteBank.SistemaAgencia.csproj.AssemblyReference.cache
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\obj\Debug\BitteBank.SistemaAgencia.csproj.SuggestedBindingRedirects.cache
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\obj\Debug\BitteBank.SistemaAgencia.csproj.CoreCompileInputs.cache
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\obj\Debug\BitteBank.SistemaAgencia.exe
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\obj\Debug\BitteBank.SistemaAgencia.pdb
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\bin\Debug\BitteBank.Modelos.dll
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\bin\Debug\BitteBank.Modelos.pdb
+C:\Users\a.a.marques.miranda\Documents\Alura\CSharp\BitteBank.SistemaAgencia\obj\Debug\BitteBank.SistemaAgencia.csproj.CopyComplete
