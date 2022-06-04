@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitteBank", "BitteBank.csproj", "{D9E7964F-A70B-44F5-89E7-74AF68D22925}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitteBank.SistemaAgencia", ".\BitteBank.SistemaAgencia\BitteBank.SistemaAgencia.csproj", "{2B9696DE-BCD1-473F-B3F3-5E97D53ECA4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitteBank.SistemaAgencia", "..\BitteBank.SistemaAgencia\BitteBank.SistemaAgencia.csproj", "{2B9696DE-BCD1-473F-B3F3-5E97D53ECA4D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitteBank.Modelos", "..\BitteBank.Modelos\BitteBank.Modelos.csproj", "{7D1F5AB6-0D68-42A6-8DA6-4AD7C260AD14}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitteBank.Modelos", ".\BitteBank.Modelos\BitteBank.Modelos.csproj", "{7D1F5AB6-0D68-42A6-8DA6-4AD7C260AD14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
