@@ -1,4 +1,5 @@
 ﻿using BitteBank.Interfaces;
+using BitteBank.Modelos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,16 +10,11 @@ namespace BitteBank.Funcionarios
 {
     public abstract class FuncionarioAutenticavel : Funcionario, IAutenticavel
     {
+        private AutenticacaoHelper _autenticacaoHelper = new AutenticacaoHelper();
         public string Senha;
         public FuncionarioAutenticavel(string nome, string cpf, double salario)
-            : base(nome, cpf, salario)
-        {
-        }
+            : base(nome, cpf, salario){ }
 
-        public bool Autenticar(string senha)
-        {
-            return Senha == senha;
-        }
-        
+        public bool Autenticar(string senha) => _autenticacaoHelper.CompararSenha(Senha, senha);        
     }
 }
